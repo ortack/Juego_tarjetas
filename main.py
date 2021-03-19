@@ -31,15 +31,6 @@ def next_card(): # funcion para cargar una nueva palabra
     engine.setProperty('rate', 125) # cambiamso la velocidad de habla
     engine.say(current_card[idioma_origen]) # le decimos la pablara
     engine.runAndWait() # lo ponemos
-
-
-
-    LLLL
-
-
-
-
-    
     flip_timer = window.after(3000, func=flip_card) # volvemos a arrancar el relog
 
 def is_known(): # funcion para cuando sabemos una palabra
